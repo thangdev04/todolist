@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, pink, teal);
+    padding-top: 5rem;
+}
+
+.container {
+    margin: 5rem auto;
+    width: 60%;
+    min-height: 50rem;
+    background-color: rgba(255, 255, 255,0.4);
+    border-radius: 2rem;
+    box-shadow: 0.1rem 0.1rem 5rem rgba(246, 245, 245, 0.2), 
+        inset -5px -5px 5px rgba(255, 255,255,0.2),
+        inset 5px 5px 5px rgba(0,0,0,0.1);   
+    
+    
+    
+}
+
+.container .enter{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.container  h1{
+    width: 100%;
+    font-size: 6rem;
+    letter-spacing: 0.3rem;
+    color: #6b6a6a;
+    font-weight: bold;
+    padding: 2rem;
+    text-align: center;
+}
+
+.container .enter input {
+    padding: 1rem;
+    width: 40%;
+    border-radius: 1rem;
+    letter-spacing: 0.1rem;
+    outline: none;
+    border: 0.1rem solid #ccc;
+    box-shadow: 0.1rem 0.1rem 5rem rgba(246, 245, 245, 0.2), 
+        inset -5px -5px 5px rgba(255, 255,255,0.2),
+        inset 5px 5px 5px rgba(0,0,0,0.1);   
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #333;
+}
+
+.container .enter .btn__Add {
+    margin-left: 2rem;
+    display: flex;
+    padding: 1rem;
+    font-size: 1.6rem;
+    font-weight: 300;
+    outline: none;
+    border: 0.1rem solid #ccc;
+    border-radius: 1rem;
+    color: #333;
+}
+
+.container .enter .btn__Add:hover {
+    opacity: 0.8;
+}
+
+.container .enter .btn__Add .ok{
+    margin-left: 0.5rem;
+}
+
+
+/* gpt */
+
+.icon {
+    margin-left: 0.5rem;
+}
+
+.print 
+{
+    padding: 1rem 0;
+}
+.task {
+    margin-top: 2rem;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+    margin-top: 0.5rem;
+}
+
+.task span {
+    display: inline-block;
+    border: none;
+    padding: 0.5rem;
+    overflow-inline: scroll;
+    padding: 1rem;
+    font-size: 1.6rem;
+    width: 100%;
+    box-sizing: border-box;
+    font-weight: 100;
+}
+
+.task span .txt{
+    padding: 1rem;
+    font-size: 1.6rem;
+    outline: none;
+    border: 0.1rem solid #ccc;
+    width: 100%;
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.1rem 5rem rgba(246, 245, 245, 0.2), 
+        inset -5px -5px 5px rgba(255, 255,255,0.2),
+        inset 5px 5px 5px rgba(0,0,0,0.1);   
+}
+
+.task .btn {
+    margin-top: 1rem;
+    padding: 1rem;
+    outline: none;
+    border-radius: 1rem;
+    border: 0.1rem solid #ccc;
+    
+}
+
+.task .btn:hover {
+    opacity: 0.8;
+}
+
+.completed {
+    background-color: rgba(255, 255, 255, 0.6); /* Màu nền nhạt cho công việc đã hoàn thành */
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.completed span {
+    text-decoration: line-through;
+    color: #888; /* Màu nhạt cho công việc đã hoàn thành */
+}
+
